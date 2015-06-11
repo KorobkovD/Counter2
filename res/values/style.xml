@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="android:Theme.Light">
+        <item name="android:buttonStyle">@style/ButtonTheme</item>
+    </style>
+
+    <style name="ButtonTheme" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/button</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="RButtonTheme" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/rbutton</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

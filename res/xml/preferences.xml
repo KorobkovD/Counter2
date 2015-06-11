@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Счет">
+        <CheckBoxPreference
+            android:title="Запомнить счет"
+            android:defaultValue="true"
+            android:summary="Продолжать счет после повторного запуска приложения"
+            android:key="saveCount" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Звук">
+        <CheckBoxPreference
+            android:title="Включить звуки"
+            android:defaultValue="false"
+            android:summary="Вкл/выкл звуки нажатия кнопок приложения"
+            android:key="soundSwitch" />
+    </PreferenceCategory>
+</PreferenceScreen>
